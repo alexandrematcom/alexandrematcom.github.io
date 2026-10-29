@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MatCom — Biblioteca Digital</title>
+
+    <meta name="description"
+          content="Biblioteca digital de Matemática, Ciência da Computação, programação e materiais didáticos.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #263238;
+            background: #f4f7fb;
+        }
+
+        header {
+            background: #17365d;
+            color: white;
+            padding: 42px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 10px auto 0;
+            max-width: 700px;
+            font-size: 1.1rem;
+        }
+
+        nav {
+            background: #102844;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            margin: 5px 14px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 1050px;
+            margin: 35px auto;
+            padding: 0 20px;
+        }
+
+        .apresentacao {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 8px #0000000a;
+        }
+
+        .apresentacao h2 {
+            margin-top: 0;
+            color: #17365d;
+        }
+
+        .categorias {
+            display: grid;
+            grid-template-columns: repeat(
+                auto-fit, minmax(230px, 1fr)
+            );
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 24px;
+            border-radius: 12px;
+            border-top: 5px solid #2878b5;
+            box-shadow: 0 2px 8px #0000000a;
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #17365d;
+        }
+
+        .card p {
+            color: #52616b;
+        }
+
+        .status {
+            display: inline-block;
+            background: #e8eef5;
+            color: #34506b;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+
+        .contato {
+            margin-top: 30px;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+        }
+
+        a {
+            color: #1769aa;
+        }
+
+        footer {
+            margin-top: 40px;
+            background: #102844;
+            color: white;
+            text-align: center;
+            padding: 22px;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 500px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav a {
+                margin: 5px 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>MatCom</h1>
+        <p>Biblioteca Digital de Matemática e Computação</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#matematica">Matemática</a>
+        <a href="#computacao">Computação</a>
+        <a href="#outros">Outros materiais</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <main>
+
+        <section id="inicio" class="apresentacao">
+            <h2>Bem-vindo(a) à MatCom!</h2>
+
+            <p>
+                Este espaço tem como objetivo preservar e compartilhar
+                materiais de estudo, ensino e pesquisa, tornando o
+                conhecimento acessível a estudantes, professores e
+                profissionais.
+            </p>
+
+            <p>
+                Aqui você encontrará explicações, resumos, exercícios,
+                códigos-fonte, tabelas, imagens e outros recursos
+                educacionais.
+            </p>
+
+            <p>
+                A biblioteca está em construção e crescerá continuamente.
+            </p>
+        </section>
+
+        <section id="matematica">
+            <h2>Matemática</h2>
+
+            <div class="categorias">
+
+                <article class="card">
+                    <h3>Probabilidade e Estatística</h3>
+                    <p>
+                        Resumos, distribuições de probabilidade,
+                        exemplos e exercícios resolvidos.
+                    </p>
+                    <span class="status">Em preparação</span>
+                </article>
+
+                <article class="card">
+                    <h3>Pesquisa Operacional</h3>
+                    <p>
+                        Programação Linear, Método Simplex,
+                        problemas de transporte, designação e redes.
+                    </p>
+                    <span class="status">Em preparação</span>
+                </article>
+
+                <article class="card">
+                    <h3>Outros temas matemáticos</h3>
+                    <p>
+                        Listas de exercícios, tabelas, fórmulas,
+                        resumos e materiais de consulta.
+                    </p>
+                    <span class="status">Em preparação</span>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="computacao">
+            <h2>Ciência da Computação</h2>
+
+            <div class="categorias">
+
+                <article class="card">
+                    <h3>Linguagens de programação</h3>
+                    <p>
+                        Exemplos, algoritmos e códigos em C, C++,
+                        Java, Python, Pascal, Fortran e outras linguagens.
+                    </p>
+                    <span class="status">Em preparação</span>
+                </article>
+
+                <article class="card">
+                    <h3>Algoritmos e estruturas de dados</h3>
+                    <p>
+                        Explicações, implementações, exemplos
+                        e exercícios de programação.
+                    </p>
+                    <span class="status">Em preparação</span>
+                </article>
+
+                <article class="card">
+                    <h3>Materiais de estudo</h3>
+                    <p>
+                        Resumos, documentação técnica e materiais
+                        para concursos e estudos independentes.
+                    </p>
+                    <span class="status">Em preparação</span>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="outros">
+            <h2>Outros materiais</h2>
+
+            <div class="categorias">
+
+                <article class="card">
+                    <h3>Materiais didáticos</h3>
+                    <p>
+                        Apresentações, apostilas, listas de exercícios
+                        e recursos para professores e estudantes.
+                    </p>
+                    <span class="status">Em preparação</span>
+                </article>
+
+                <article class="card">
+                    <h3>Acervo geral</h3>
+                    <p>
+                        Outros documentos e conteúdos que merecem
+                        ser preservados e compartilhados.
+                    </p>
+                    <span class="status">Em preparação</span>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="contato" class="contato">
+            <h2>Contato e colaboração</h2>
+
+            <p>
+                Encontrou um erro, tem uma sugestão ou gostaria
+                de contribuir com o acervo?
+            </p>
+
+            <p>
+                As informações de contato serão disponibilizadas
+                futuramente.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>MatCom — Biblioteca Digital de Matemática e Computação</p>
+        <p>Conhecimento compartilhado é conhecimento multiplicado.</p>
+    </footer>
+
+</body>
+</html>
