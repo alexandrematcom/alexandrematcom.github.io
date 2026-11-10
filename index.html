@@ -1,4 +1,4 @@
-
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -64,6 +64,14 @@
             padding: 0 20px;
         }
 
+        section {
+            margin-bottom: 35px;
+        }
+
+        section h2 {
+            color: #17365d;
+        }
+
         .apresentacao {
             background: white;
             padding: 25px;
@@ -74,7 +82,6 @@
 
         .apresentacao h2 {
             margin-top: 0;
-            color: #17365d;
         }
 
         .categorias {
@@ -102,6 +109,11 @@
             color: #52616b;
         }
 
+        .card ul {
+            padding-left: 20px;
+            color: #52616b;
+        }
+
         .status {
             display: inline-block;
             background: #e8eef5;
@@ -116,10 +128,6 @@
             background: white;
             padding: 25px;
             border-radius: 12px;
-        }
-
-        a {
-            color: #1769aa;
         }
 
         footer {
@@ -152,8 +160,9 @@
 
     <nav>
         <a href="#inicio">Início</a>
-        <a href="#matematica">Matemática</a>
         <a href="#computacao">Computação</a>
+        <a href="#matematica">Matemática</a>
+        <a href="#estatistica">Estatística</a>
         <a href="#outros">Outros materiais</a>
         <a href="#contato">Contato</a>
     </nav>
@@ -177,43 +186,9 @@
             </p>
 
             <p>
-                A biblioteca está em construção e crescerá continuamente.
+                A biblioteca está em construção e seu acervo será
+                disponibilizado gradualmente.
             </p>
-        </section>
-
-        <section id="matematica">
-            <h2>Matemática</h2>
-
-            <div class="categorias">
-
-                <article class="card">
-                    <h3>Probabilidade e Estatística</h3>
-                    <p>
-                        Resumos, distribuições de probabilidade,
-                        exemplos e exercícios resolvidos.
-                    </p>
-                    <span class="status">Em preparação</span>
-                </article>
-
-                <article class="card">
-                    <h3>Pesquisa Operacional</h3>
-                    <p>
-                        Programação Linear, Método Simplex,
-                        problemas de transporte, designação e redes.
-                    </p>
-                    <span class="status">Em preparação</span>
-                </article>
-
-                <article class="card">
-                    <h3>Outros temas matemáticos</h3>
-                    <p>
-                        Listas de exercícios, tabelas, fórmulas,
-                        resumos e materiais de consulta.
-                    </p>
-                    <span class="status">Em preparação</span>
-                </article>
-
-            </div>
         </section>
 
         <section id="computacao">
@@ -222,30 +197,148 @@
             <div class="categorias">
 
                 <article class="card">
+                    <h3>Algoritmos</h3>
+                    <p>
+                        Algoritmos, técnicas de programação,
+                        exemplos e exercícios.
+                    </p>
+                    <span class="status">Em organização</span>
+                </article>
+
+                <article class="card">
                     <h3>Linguagens de programação</h3>
-                    <p>
-                        Exemplos, algoritmos e códigos em C, C++,
-                        Java, Python, Pascal, Fortran e outras linguagens.
-                    </p>
-                    <span class="status">Em preparação</span>
+                    <ul>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>Java — códigos-fonte</li>
+                        <li>Python</li>
+                    </ul>
+                    <span class="status">Em organização</span>
                 </article>
 
                 <article class="card">
-                    <h3>Algoritmos e estruturas de dados</h3>
+                    <h3>Desenvolvimento de Software</h3>
                     <p>
-                        Explicações, implementações, exemplos
-                        e exercícios de programação.
+                        Materiais, exemplos e projetos relacionados
+                        ao desenvolvimento de software.
                     </p>
-                    <span class="status">Em preparação</span>
+                    <span class="status">Em organização</span>
                 </article>
 
                 <article class="card">
-                    <h3>Materiais de estudo</h3>
+                    <h3>Cálculo Numérico</h3>
                     <p>
-                        Resumos, documentação técnica e materiais
-                        para concursos e estudos independentes.
+                        Métodos numéricos, algoritmos,
+                        implementações e aplicações.
                     </p>
-                    <span class="status">Em preparação</span>
+                    <span class="status">Em organização</span>
+                </article>
+
+                <article class="card">
+                    <h3>Scilab</h3>
+                    <p>
+                        Programas, exemplos e aplicações
+                        computacionais.
+                    </p>
+                    <span class="status">Em organização</span>
+                </article>
+
+                <article class="card">
+                    <h3>Materiais Java</h3>
+                    <p>
+                        Códigos-fonte, imagens e documentos
+                        relacionados à linguagem Java.
+                    </p>
+                    <span class="status">Em organização</span>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="matematica">
+            <h2>Matemática</h2>
+
+            <div class="categorias">
+
+                <article class="card">
+                    <h3>Cálculo Diferencial e Integral</h3>
+                    <p>
+                        Conceitos, exemplos, exercícios e
+                        materiais de consulta.
+                    </p>
+                    <span class="status">Em organização</span>
+                </article>
+
+                <article class="card">
+                    <h3>Cálculo de Várias Variáveis</h3>
+                    <p>
+                        Funções de várias variáveis,
+                        derivadas parciais e integrais múltiplas.
+                    </p>
+                    <span class="status">Em organização</span>
+                </article>
+
+                <article class="card">
+                    <h3>GAAL</h3>
+                    <p>
+                        Geometria Analítica e Álgebra Linear:
+                        resumos, exercícios e aplicações.
+                    </p>
+                    <span class="status">Em organização</span>
+                </article>
+
+                <article class="card">
+                    <h3>Logaritmo</h3>
+                    <p>
+                        Propriedades, equações, funções
+                        e exercícios.
+                    </p>
+                    <span class="status">Em organização</span>
+                </article>
+
+                <article class="card">
+                    <h3>Transformações Gráficas</h3>
+                    <p>
+                        Representações gráficas e transformações
+                        de funções matemáticas.
+                    </p>
+                    <span class="status">Em organização</span>
+                </article>
+
+                <article class="card">
+                    <h3>Trigonometria</h3>
+                    <p>
+                        Relações trigonométricas, funções,
+                        identidades e exercícios.
+                    </p>
+                    <span class="status">Em organização</span>
+                </article>
+
+                <article class="card">
+                    <h3>Resumos</h3>
+                    <p>
+                        Fórmulas, tabelas e materiais
+                        de revisão matemática.
+                    </p>
+                    <span class="status">Em organização</span>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="estatistica">
+            <h2>Estatística</h2>
+
+            <div class="categorias">
+
+                <article class="card">
+                    <h3>Probabilidade e Estatística</h3>
+                    <p>
+                        Distribuições de probabilidade,
+                        estatística descritiva, exemplos,
+                        exercícios e aplicações.
+                    </p>
+                    <span class="status">Em organização</span>
                 </article>
 
             </div>
@@ -259,8 +352,9 @@
                 <article class="card">
                     <h3>Materiais didáticos</h3>
                     <p>
-                        Apresentações, apostilas, listas de exercícios
-                        e recursos para professores e estudantes.
+                        Apresentações, listas de exercícios,
+                        resumos e recursos para professores
+                        e estudantes.
                     </p>
                     <span class="status">Em preparação</span>
                 </article>
@@ -268,8 +362,9 @@
                 <article class="card">
                     <h3>Acervo geral</h3>
                     <p>
-                        Outros documentos e conteúdos que merecem
-                        ser preservados e compartilhados.
+                        Outros documentos e conteúdos
+                        educacionais que merecem ser
+                        preservados e compartilhados.
                     </p>
                     <span class="status">Em preparação</span>
                 </article>
@@ -300,3 +395,4 @@
 
 </body>
 </html>
+```
